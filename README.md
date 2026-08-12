@@ -1,4 +1,4 @@
-# MLB Fanbase Trends Data Analysis
+# MLB Fanbase Trends Analysis
 ### Link to the [project](https://public.tableau.com/app/profile/daniel.kim7933/viz/MLBFanbaseDataAnalysis/MLBFanbaseDashboard?publish=yes)
 
 ## Motivation
