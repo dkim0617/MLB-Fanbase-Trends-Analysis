@@ -2,7 +2,7 @@
 ### Link to the [project](https://public.tableau.com/app/profile/daniel.kim7933/viz/MLBFanbaseDataAnalysis/MLBFanbaseDashboard?publish=yes)
 
 ## Motivation
-The MLB Fanbase Trends Data Analysis project was derived from an experience I recently had where I was able to go to a Seattle Mariners game and was thrilled, as I have not been to a baseball game in years. When I arrived at T-Mobile Park, I was met with empty seats, low-density crowds, and an environment changed compared to my last visit when I was younger. I wanted to find what happened to the fanbase and analyze the trends, not for my Mariners, but for all the teams in MLB to discover what led to the difference I observed at my visit to the game.
+The MLB Fanbase Trends Data Analysis project was derived from an experience I recently had where I was able to go to a Seattle Mariners game and was thrilled, as I have not been to a baseball game in years. When I arrived at T-Mobile Park, I was met with empty seats, sparse crowds, and an environment that had changed since my last visit when I was younger. I wanted to find what happened to the fanbase and analyze the trends, not for my Mariners, but for all the teams in MLB to discover what led to the difference I observed at my visit to the game.
 
 ## Project Overview
 This project shows a full data pipeline from public APIs into an interactive Tableau dashboard that answers 7 core business questions about MLB Fanbase trends: fan engagement, geographic distribution, team growth, and social media reach across all 30 teams.
@@ -14,3 +14,24 @@ This project shows a full data pipeline from public APIs into an interactive Tab
 
 ## Questions answered:
 1. Which MLB teams have the largest fanbases?
+2. How has fan engagement changed over time?
+3. Which states generate the highest MLB interest?
+4. Which teams are growing or declining in popularity?
+5. What demographic or regional trends exist among MLB fans?
+6. How do social media engagement metrics compare across teams?
+7. Which teams have the strongest national vs local reach?
+
+## Tech Stack
+| Layer | Tool |
+|-------|------|
+| Data Collection | Python, MLB Stats API, Pytrends |
+| Database | PostgreSQL |
+| Data Transformation | SQL |
+| Visualization | Tableau Public |
+
+## Data Sources
+| Source | Data | Table |
+|-------|-------|-------|
+| MLB Stats API | Teams, attendance 2021–2024 | teams, attendance |
+| Google Trends (Pytrends) | Search interest by state + over time | fan_trends |
+| Seeded estimates| Social media follwers by platform | social_media_metrics |
