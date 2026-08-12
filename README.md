@@ -35,3 +35,19 @@ This project shows a full data pipeline from public APIs into an interactive Tab
 | MLB Stats API | Teams, attendance 2021–2024 | teams, attendance |
 | Google Trends (Pytrends) | Search interest by state + over time | fan_trends |
 | Seeded estimates| Social media follwers by platform | social_media_metrics |
+
+## Project Files
+MLB_Project
+- 01_setup_db.sql           ← Creates PostgreSQL schema and tables
+- 02_etl_pipeline.py        ← Python ETL: pulls APIs and loads PostgreSQL
+- 03_analytical_queries.sql ← Creates 9 analytical views for Tableau
+- requirements.txt          ← Python dependencies
+- README.md                 ← This file
+
+## Dashboard Pages
+Used the findings to build 5 interactive sheets in Tableau Public
+- **Team Rankings**: a horizontal bar chart that ranks 30 teams by avg fan interest
+- **Fan Interest Over Time**: a line chart with multiple lines showing national Google Trends by team
+- **State Map**: a US map filled in by shades of fan interest score per state
+- **Social Media**: a bar chart ranking teams by total followers across platforms
+- **Team Growth**: a diverging bar chart that shows growth vs decline by team
