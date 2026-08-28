@@ -1,5 +1,5 @@
 # MLB Fanbase Trends Analysis
-### Link to the [project](https://public.tableau.com/app/profile/daniel.kim7933/viz/MLBFanbaseDataAnalysis/MLBFanbaseDashboard?publish=yes)
+### Link to the [project](https://public.tableau.com/app/profile/daniel.kim7933/viz/MLBFanbaseTrends/MLBFanbaseTrends?publish=yes)
 
 ## Motivation
 The MLB Fanbase Trends Data Analysis project was derived from an experience I recently had where I was able to go to a Seattle Mariners game and was thrilled, as I have not been to a baseball game in years. When I arrived at T-Mobile Park, I was met with empty seats, sparse crowds, and an environment that had changed since my last visit when I was younger. I wanted to find what happened to the fanbase and analyze the trends, not for my Mariners, but for all the teams in MLB to discover what led to the difference I observed at my visit to the game.
